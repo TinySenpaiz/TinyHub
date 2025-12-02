@@ -4,6 +4,8 @@ elseif game.placeId == 127742093697776 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TinySenpaiz/TinyHub/refs/heads/main/PlantsvsBrainrot.lua"))()
 elseif game.placeId == 121864768012064 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TinySenpaiz/TinyHub/refs/heads/main/FishIt.lua"))()
+elseif game.placeId == 122826953758426 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TinySenpaiz/TinyHub/refs/heads/main/RaiseAnimals.lua"))()
 else
     game.Players.LocalPlayer:Kick("This game isn't supported by Tiny Hub!")
 end
